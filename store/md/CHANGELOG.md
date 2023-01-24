@@ -2,11 +2,13 @@
 
 December 6, 2021
 
-- Upgraded all packages to latest version: Webpack v5, React 17, etc.
-- Disabled esLint.
-- The hot reload is not broken, we need to review how to implemented with the new webpack dev server because the `public` property is not allowed anymore as a paratmeter for the deServer, we tried the following iwthout any luck:
+-   Upgraded all packages to latest version: Webpack v5, React 17, etc.
+-   Disabled esLint.
+-   The hot reload is not broken, we need to review how to implemented with the new webpack dev server because the `public` property is not allowed anymore as a paratmeter for the deServer, we tried the following iwthout any luck:
 
-```js
+```
+
+js
   devServer: {
     port,
     hot: true,
@@ -19,4 +21,5 @@ December 6, 2021
       webSocketURL: publicUrl
     },
   },
+
 ```
