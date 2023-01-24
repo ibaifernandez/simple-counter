@@ -17,3 +17,5 @@
 2. **FontAwesome 6**
 
     - https://kit.fontawesome.com/7512d3f222.css
+
+> Just run `npm install`... and enjoy!
