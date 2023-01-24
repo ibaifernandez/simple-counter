@@ -5,7 +5,7 @@ import favicon from "../../img/favicon.jpeg";
 const Home = () => {
     return (
         <>
-            <img className="mx-0" src={favicon} />
+            <img className="d-block my-3 mx-auto" src={favicon} />
             <div className="text-center">Hello React!</div>
         </>
     );
