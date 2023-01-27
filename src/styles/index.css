@@ -7,11 +7,24 @@
 }
 
 .digit {
-    font: bold 10vw/1rem Courier;
-    padding: 2rem 1rem;
+    padding: 8vh 1vw;
     margin: 1rem;
     background: teal;
     border-radius: 25%;
+}
+
+.number {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10vw;
+    line-height: 1rem;
+}
+
+.icon {
+    margin-right: 2rem;
+    font-size: 8rem;
+    display: flex;
+    align-items: center;
 }
 
 .seconds {
