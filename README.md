@@ -205,7 +205,7 @@ simple-counter
         | `Counter.jsx`                   | `Home.jsx`                                              | `index.js`                                        | `index.js`                |
         | ------------------------------- | ------------------------------------------------------- | ------------------------------------------------- | ------------------------- |
         | Needs`{props.hundredThousands}` | asks `hundredThousands={props.secondsHundredThousands}` | asks `secondsHundredThousands={hundredThousands}` | finds `hundredThousands`  |
-        | Within a Component              | Within the call of `<Counter />`                        | Wwithin the call of `<Home />`}                   | `let hundredThousands= 0` |
+        | Within a Component              | Within the call of `<Counter />`                        | Within the call of `<Home />`}                    | `let hundredThousands= 0` |
 
 ## Final result
 
