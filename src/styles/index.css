@@ -1,37 +1,4 @@
-.big-counter {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    background: black;
-    color: white;
-}
-
-.digit {
-    padding: 8vh 1vw;
-    margin: 1rem;
-    background: teal;
-    border-radius: 25%;
-}
-
-.number {
-    font-family: Arial;
+body {
+    font-family: "Courier New", Courier, monospace !important;
     font-weight: bold;
-    font-size: 10vw;
-    line-height: 1rem;
-}
-
-.icon {
-    margin-right: 2rem;
-    font-size: 8rem;
-    display: flex;
-    align-items: center;
-}
-
-.seconds {
-    letter-spacing: 1rem;
-    text-align: center;
-}
-
-.white {
-    color: white !important;
 }
